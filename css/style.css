@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Krub', sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: black;
+}
+
+.dot:hover {
+  stroke-width: 3px;
+}
+
+.tooltip {
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  padding: 2.5px;
+  min-width: 200px;
+  height: auto;
+  pointer-events: none;
+  border: 1px solid black;
+}
